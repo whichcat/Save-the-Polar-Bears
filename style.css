@@ -78,13 +78,47 @@ a:hover{
     margin-left: 60px;
 }
 
-.images2{
-    display: flex;
-    align-items: center;
+.image-container-title{
+    margin-top: 60px;
+    margin-left: 100px;
 }
 
-.images2 h1{
+.image-container {
+    display: flex;
+    justify-content: center;
+    gap: 120px; 
+    width: 90%; 
+    max-width: 1200px; 
     margin-left: 100px;
+    margin-top: 30px;
+}
+
+.image-item {
+    text-align:left; 
+}
+
+.image-item img {
+    height: 270px;
+    width: 310px;
+    border-radius: 15px;
+    
+}
+
+.we-can-save-them{
+    display: flex;
+    justify-content: center;
+    gap: 300px; 
+    width: 90%; 
+    max-width: 1200px; 
+    margin-left: 90px;
+    margin-top: 50px;
+}
+
+
+.image img{
+    height: 500px;
+    width: 350px;
+    border-radius: 15px;
 }
 .content {
     height: 200vh; 
