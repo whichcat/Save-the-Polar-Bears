@@ -113,7 +113,10 @@ button::after {
     border-radius: 15px;
     
 }
-
+.sub-title::first-line{
+    font-weight: bold;
+    color: #222;
+}
 .we-can-save-them{
     display: flex;
     justify-content: center;
