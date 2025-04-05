@@ -47,12 +47,12 @@ body {
 }
 a:hover{
     text-decoration:none;
-    background-color: #b89125; /*remember to choose a different color*/
+    background-color: #6bd2dd; /*remember to choose a different color*/
     color: aliceblue;
   }
 
 .donate-btn {
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     color: white;
     border: none;
     padding: 8px 12px;
