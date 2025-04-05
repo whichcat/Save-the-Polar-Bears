@@ -9,7 +9,8 @@ body {
     justify-content: space-between;
     padding: 10px 20px;
     background-color: rgb(161, 220, 249);
-    /*position: fixed;*/
+    top: 0;
+    position: sticky;
 }
 
 .nav-items {
@@ -46,9 +47,10 @@ body {
 }
 a:hover{
     text-decoration:none;
-    background-color: #b89125; /*remember to choose a different color*/
+    background-color: #3545eb;
     color: aliceblue;
   }
+
 
 .donate-btn {
     background-color: black;
@@ -61,6 +63,10 @@ a:hover{
 
 .donate-btn:hover {
     opacity: 0.8;
+}
+
+.donate-btn:active{
+    transform: scale(0.95);
 }
 
 .image1 img{
@@ -82,6 +88,7 @@ a:hover{
     margin-top: 60px;
     margin-left: 100px;
 }
+
 
 .image-container {
     display: flex;
