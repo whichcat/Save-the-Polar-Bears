@@ -151,3 +151,7 @@ footer {
   a:focus{
     background-color: rgb(27, 23, 95);
   }
+
+  p::selection{
+    background-color: rgb(161, 220, 249);
+  }
