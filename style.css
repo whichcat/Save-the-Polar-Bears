@@ -147,3 +147,7 @@ footer {
     text-decoration: none;
     border-radius: 50%;
   }
+
+  a:focus{
+    background-color: rgb(27, 23, 95);
+  }
