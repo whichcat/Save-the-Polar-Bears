@@ -51,7 +51,7 @@ a:hover{
     color: aliceblue;
   }
 
-  h1::before {
+  h1::before, h1::after {
     content: " ❄️";
     color: #00aaff;
   }
