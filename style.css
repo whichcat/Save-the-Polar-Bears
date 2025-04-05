@@ -115,7 +115,6 @@ a:hover{
     margin-top: 50px;
 }
 
-
 .image img{
     height: 500px;
     width: 350px;
@@ -125,3 +124,20 @@ a:hover{
     height: 200vh; 
     padding: 20px;
 }
+
+footer {
+    clear: both;
+    padding: 20px;
+    background-color: rgb(161, 220, 249);
+    display: flex;
+    justify-content: space-between;
+}
+
+.fa {
+    padding: 10px;
+    font-size: 50px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
