@@ -51,7 +51,10 @@ a:hover{
     color: aliceblue;
   }
 
-
+  h1::before {
+    content: " ❄️";
+    color: #00aaff;
+  }
 .donate-btn {
     background-color: black;
     color: white;
