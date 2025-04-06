@@ -73,19 +73,24 @@ a:hover{
 }
 
 button::after {
-    content: " →";  /* Adds an arrow after buttons */
+    content: " →";  
   }
-.image1 img{
+
+  
+ 
+  .image1 img{
     height: 500px;
     width: 1100px;
     border-radius: 15px;
     margin-left: 100px;
+    display: flex;
+    align-items: center;
     
 }
-.image1 h1{
+.info h1{
     margin-left: 100px;
 }
-.image1 ul li{
+.info ul li{
     display: block;
     margin-left: 60px;
 }
