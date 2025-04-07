@@ -12,13 +12,7 @@ body {
 p,
 li {
   font-family: "Playfair Display", serif;
-  /* font-optical-sizing: auto;
-    font-weight: <weight>; */
   font-style: normal;
-}
-
-body {
-  margin: 0;
 }
 
 .navbar {
@@ -68,6 +62,7 @@ h1::after {
   content: " ❄️";
   color: #00aaff;
 }
+
 .donate-btn {
   background-color: black;
   color: white;
@@ -130,10 +125,12 @@ button::after {
   width: 310px;
   border-radius: 15px;
 }
+
 .sub-title::first-line {
   font-weight: bold;
   color: #222;
 }
+
 .we-can-save-them {
   display: flex;
   justify-content: center;
@@ -173,6 +170,7 @@ footer {
 }
 
 a:focus {
+  text-decoration: none;
   background-color: rgb(122, 146, 243);
   color: aliceblue;
 }
@@ -348,10 +346,6 @@ footer {
   border-radius: 50%;
 }
 
-a:focus {
-  background-color: rgb(27, 23, 95);
-}
-
 p::selection {
   background-color: rgb(161, 220, 249);
 }
@@ -430,10 +424,6 @@ button::after {
     flex-direction: column;
     align-items: flex-start;
     padding: 1rem;
-  }
-  a:focus {
-    background-color: rgb(122, 146, 243);
-    color: aliceblue;
   }
 
   .nav-items {
