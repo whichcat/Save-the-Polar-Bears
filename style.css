@@ -431,6 +431,10 @@ button::after {
     align-items: flex-start;
     padding: 1rem;
   }
+  a:focus {
+    background-color: rgb(122, 146, 243);
+    color: aliceblue;
+  }
 
   .nav-items {
     flex-direction: column;
