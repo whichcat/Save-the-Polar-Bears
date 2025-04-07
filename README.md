@@ -2,6 +2,8 @@
 
 A mock-website that highlights how polar bears are affected by climate change.
 
+![Screenshot of website](https://github.com/whichcat/Save-the-Polar-Bears/blob/main/website-screenshot.png)
+
 link to our website: https://save-the-polar-bears.onrender.com/
 
 #### Citations
