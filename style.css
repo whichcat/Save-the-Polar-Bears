@@ -32,12 +32,6 @@ p, li {
         
     }
     
-    .nav-items {
-        display: flex;
-        align-items: center;
-        gap: 200px; 
-        
-    }
     .navbar div span{
         margin: 80px;
     }
@@ -183,7 +177,8 @@ p, li {
       }
     
       a:focus{
-        background-color: rgb(27, 23, 95);
+        background-color: rgb(122, 146, 243);
+        color: aliceblue;
       }
     
       p::selection{
@@ -258,7 +253,6 @@ button::after {
     content: " →";  
   }
   
-  
 
       @media (max-width: 768px) {
         .navbar {
@@ -267,22 +261,19 @@ button::after {
             padding: 1rem;
         }
     
-        .nav-items {
-            flex-direction: column;
-            gap: 20px;
-            width: 100%;
-        }
-    
         .navbar div span {
             margin: 20px 0;
         }
     
         .nav-links {
-            flex-direction: column;
-            gap: 10px;
+            gap: 60px;
             width: 100%;
         }
-    
+        
+        .donate-btn{
+            gap: 60px;
+        }
+
         .logo {
             font-size: 20px;
             margin-bottom: 10px;
