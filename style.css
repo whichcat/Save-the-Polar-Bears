@@ -96,10 +96,16 @@ button::after {
 .info h1 {
   margin-left: 100px;
 }
-.info ul li {
+
+.info p{
+  margin-left: 120px;
+  line-height: 0.8;
+}
+
+/* .info ul li {
   display: block;
   margin-left: 60px;
-}
+} */
 
 .image-container-title {
   margin-top: 60px;
@@ -457,9 +463,9 @@ button::after {
     margin-left: 20px;
   }
 
-  .info ul li {
+  /* .info ul li {
     margin-left: 20px;
-  }
+  } */
 
   .image-container-title {
     margin-left: 20px;
@@ -500,5 +506,10 @@ button::after {
   p,
   li {
     font-size: 20px;
+  }
+
+  .info p{
+    margin-left: 30px;
+    line-height: 1;
   }
 }
